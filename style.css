@@ -1,5 +1,5 @@
 :root{
-    --main-color:#4C84FF;
+    --main-color:#4c37d5;
     --primary-bg-color:#fff;
     --secondary-bg-color:#eee;
     --primary-text-color:#222;
@@ -12,7 +12,6 @@
     font-family: 'Roboto', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
-    text-transform: capitalize;
     outline: none; border:none;
     text-decoration: none;
     transition:all .3s cubic-bezier(.38,1.15,.7,1.12);
@@ -569,7 +568,7 @@ section{
 }
 
 .contact .row form input::placeholder, .contact .row form textarea::placeholder{
-    text-transform: capitalize;
+    
     color:var(--secondary-text-color);
 }
 
@@ -629,10 +628,10 @@ section{
 }
 
 .footer {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
     background-color: var(--primary-bg-color);
-    color: #fff;
+    color: #ffffff;
   }
   
   .copyright {
@@ -653,6 +652,7 @@ section{
     cursor: pointer;
     border-radius: 5rem;
 }
+
 
 #theme-toggler.fa-sun{
     transform:rotate(-180deg);
