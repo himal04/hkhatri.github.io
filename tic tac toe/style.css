@@ -8,10 +8,10 @@ nav{
     background-color: rgb(37, 9, 37);
     color: white;
     height: 65px;
-    font-size: 27px;
+    font-size: 34px;
     display: flex;
-    align-items: center;
-    padding: 0 12px;
+    padding-top: 30px;
+    padding-left: 650px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -43,20 +43,26 @@ nav ul{
 }
 
 .box:hover{
-    background-color: rgb(242, 234, 250);
+    background-color: rgb(137, 137, 138);
 }
 
 .info {
-    font-size: 22px;
+    font-size: 32px;
+    font-family:  impact;
+    -webkit-text-stroke:1px white;
 }
 
 .gameInfo{
-    padding: 0 34px;
+
+    padding-top: 120px;
+    padding-left: 120px;
     font-family: 'Baloo Bhaina 2', cursive;
 }
 
 .gameInfo h1{
-    font-size: 2.5rem;
+    font-size: 62px;
+    font-family: impact;
+    -webkit-text-stroke:0.1px white;
 }
 
 .imgbox img{
@@ -83,11 +89,11 @@ nav ul{
 #reset {
     margin: 0 23px;
     padding: 1px 18px;
-    background: #f3e7f9;
-    border-radius: 6px;
+    background: #ffffff;
+    border-radius: 15px;
     cursor: pointer;
     font-family: 'Baloo Bhaina 2';
-    font-size: 15px;
+    font-size: 22px;
     font-weight: bolder;
 }
 
