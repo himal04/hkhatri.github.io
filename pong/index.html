@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lauro Dallo</h1>
+        <div id="menu">
+            <button id="singlePlayerButton">Single Player</button>
+            <button id="twoPlayerButton">Two Player</button>
+        </div>
+        <div id="difficultyMenu" class="hidden">
+            <button id="easyButton">Easy</button>
+            <button id="mediumButton">Medium</button>
+            <button id="hardButton">Hard</button>
+        </div>
+        <canvas id="pongCanvas" class="hidden"></canvas>
+        <div id="scoreboard" class="hidden">
+            <span id="player1Score">0</span>
+            <span id="player2Score">0</span>
+        </div>
+        <div id="winnerDisplay" class="hidden"></div>
+        <div id="controls" class="hidden">
+            <button id="restartButton">Restart</button>
+            <button id="mainMenuButton">Main Menu</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
